@@ -12,3 +12,4 @@
 | 2026-10-16 | HuiLin Chong | How to structure a PyTorch 5-fold CV loop with weighted Cross-Entropy? | Outlined standard CV loop structure, weight resetting, and metric tracking. | Referenced the structure to design the `train_kfold` logic for Task 6. |
 | 2026-10-16 | HuiLin Chong | How to improve variable naming and readability in my PyTorch loop? | Suggested standardizing variable names and removing verbose comments. | Applied suggestions to refactor Task 6 code for better readability. |
 | 2026-10-16 | HuiLin Chong | Fix syntax error at `loss.item()images.size(0)` and advise on Colab cell order. | Identified missing `*` operator and explained sequential cell execution. | Fixed the syntax error and correctly ordered notebook cells for execution. |
+| 2026-10-20 | Jiadong Chen | Does Albumentations change mask values when using ColorJitter or GaussNoise? | Explained that pixel-level transforms only affect the image, leaving mask labels untouched. |
